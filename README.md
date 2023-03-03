@@ -1,6 +1,15 @@
 ## AUTO IZINKAN ROOT
+#1
+```sh
+sudo su
+```
+#2
 ```sh
 git clone https://github.com/KurrXd/auto-root && cd auto-root && mv sshd_config /etc/ssh/
+```
+#3
+```sh
+service ssh reload
 ```
 
 ## AUTO CREATE USER UBUNTU
